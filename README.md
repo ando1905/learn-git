@@ -31,6 +31,10 @@ Example:
 
 `git push`
 
+push a new branch in local:
+
+`git push --set-upstream origin test-branch` to push a `test-branch` into git 
+
 ## create a new branch
 
 `git checkout -b your-new-branch`
@@ -38,3 +42,20 @@ Example:
 Example:
 
 `git checkout -b test-branch` will create a new branch with name `test-branch` from the main branch
+
+## checkout a branch 
+
+`git checkout your-branch` to switch to `your-branch` locally
+
+## logs 
+
+`git log` to show the commit history 
+
+
+## fetch new changes from git 
+
+`git fetch` to fetch new changes from git
+
+## pull new changes from the current branch from git 
+
+`git pull`
