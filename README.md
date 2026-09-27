@@ -59,3 +59,23 @@ Example:
 ## pull new changes from the current branch from git 
 
 `git pull`
+
+## git flows 
+
+1. create a new branch
+
+- indicate base branch (main for example)
+- checkout base branch
+- fetch origin changes from git
+- pull new changes for the current base branch
+- create a new branch from the base branch
+- make changes
+- stage changes
+- commit changes
+- push changes
+- create a pull request
+- (optional) update to align with the base branch
+- review changes from the pull request
+- resolve review comments 
+- get review approvals
+- merge the current pull request
