@@ -79,3 +79,13 @@ Example:
 - resolve review comments 
 - get review approvals
 - merge the current pull request
+
+## branching approaches
+
+there are 3 approaches:
+- main branch: frequently(maybe daily) merge new code from contributors.
+- milestone branch: based on release plan we create a milestone branch from the main branch and actively merge code into that milestone branch. When the milestone is ready for merging into the main branch we raise a pull request.(frequency: monthly, quaterly[happens one time for three months])
+- feature branch: used for the case we have a big feature and we want colabration to develop that feature so we create a new feature branch from the main branch. Contributors will always raise a pull request into that feature branch first. When the feature is ready for merging into the main branch we raise a pull request.(frequency: weekly, fortnightly[happens one time for two weeks])
+
+## handling conflicts 
+
