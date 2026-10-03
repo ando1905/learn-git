@@ -3,3 +3,4 @@ new change
 new pullll
 new commit
 new change to commit
+new line from handing-conflicts-3
