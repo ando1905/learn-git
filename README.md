@@ -90,3 +90,22 @@ there are 3 approaches:
 ## handling conflicts 
 
 ![Conflicts](images/Conflicts.png)
+
+
+
+### what are conflicts?
+Conflicts are events when Git can't resolve changes on your branch with changes on an origin branch that you want to merge in. 
+### when will it happen?
+It happens after someone merges changes from another branch into the base branch, which makes your current working branch outdated and in conflict
+
+### how to resolve conflicts?
+To resolve conflicts:
+1. checkout to the local base branch that you want to merge into
+2. Fetch and pull the changes from the origin base branch to your local base branch
+3. Check out your current working branch
+4. Merge the local base branch into the branch you are working on
+5. Resolve the conflicts manually by choosing or combining the changes.
+6. (optional) Make more changes
+7. Stage changes
+8. Commit the changes (it provides a default message for the merge commit, but you can change it to your own commit message if needed)
+9. Push it to github
