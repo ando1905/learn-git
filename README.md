@@ -89,3 +89,4 @@ there are 3 approaches:
 
 ## handling conflicts 
 
+![Conflicts](images\Conflicts.png)
