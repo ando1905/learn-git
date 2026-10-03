@@ -103,7 +103,7 @@ To resolve conflicts:
 1. checkout to the local base branch that you want to merge into
 2. Fetch and pull the changes from the origin base branch to your local base branch
 3. Check out your current working branch
-4. Merge the local base branch into the branch you are on
+4. Merge the local base branch into the branch you are working on
 5. Resolve the conflicts manually by choosing or combining the changes.
 6. (optional) Make more changes
 7. Stage changes
